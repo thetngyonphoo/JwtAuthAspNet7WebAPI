@@ -31,7 +31,7 @@ builder.Services
 //Config Identity
 builder.Services.Configure<IdentityOptions>(options =>
 {
-    options.Password.RequiredLength = 8;
+    options.Password.RequiredLength = 6;
     options.Password.RequireDigit = false;
     options.Password.RequireLowercase = false;
     options.Password.RequireUppercase = false;
